@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ahniia Strohova</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Developer and designer" name="keywords">
+    <meta content="Developer and designer" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;700;900&family=Roboto+Condensed:wght@300;400;500;600;700&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="/ristorantePage/ristorante.css" rel="stylesheet">
+</head>
+
+<body   data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="../index.html" class="navbar-brand ml-lg-3">
+            <img class="logo" src="/img/logo.png" alt="">
+        </a>
+    </nav>
+    <!-- Navbar End -->
+    
+    <div class="container-fluid py-5" id="titlePortf">
+        <div class="container">
+            <div class="mainTitle">
+                <div class="title">Restaurant</div>
+                <div class="pict"><img class="img-fluid" src="/img/ristorante/lineCover.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="description">
+                <h3>Overview</h3>
+                <p>This site was my final project in my programming course. My assignment was to make a small restaurant website that would have a menu for all the dishes. Some dishes would be unavailable because they were out of stock. It was also necessary to make a button for a detailed description of each dish, and the ability to order this dish directly on the details page. A dish with a picture, short description and price should have been saved in the cart. Also in the cart should be calculated the total amount of the order. And if this order total exceeds 40 euros, a discount should have been applied. </p>
+                <h3>My Role</h3>
+                <p>Sole developer and designer</p>
+                <h3>Duration</h3>
+                <p>3 days</p>
+                <h3>Tools</h3>
+                <p>Angular, TypeScript, CSS, HTML, Visual Studio Code, Figma
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="grid02">
+                <div class="chdiv">
+                    <div class="cardText">
+                        <p>Dish cards are created from an array of information in JSON format. 
+                            <br>
+                            This array contains information about the name of the dish, photo, short description, price, and whether the dish is available. 
+                            <br>
+                        Each card has a "details" button that leads to a page with that dish. And the button "order" which adds the dish to the cart. </p>
+                    </div>
+                    <div class="chdiv">
+                        <img src="/img/ristorante/pic01.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="chdiv">
+                    <div class="cardText">
+                        <p>This page, is also created from an array of information in JSON format. The card is created using Bootstrap. And the code for displaying the dish data in the card was written in the TypeScript.
+                        The dish page contains a photo of the dish, as well as a short description and price. In addition, there is a "buy" button that adds this dish to your cart.  </p>
+                    </div>
+                    <div class="chdiv">
+                        <img src="/img/ristorante/pic01-1.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="chdiv">
+                    <div class="cardText">
+                        <p>The shopping cart displays the added dishes. Calculates the total cost of the ordered dishes, adds a 10% service charge, and then displays the total cost of the order.</p>
+                    </div>
+                    <div class="chdiv">
+                        <img src="/img/ristorante/pic02.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="chdiv">
+                    <div class="cardText">
+                        <p>In addition, if the total order amount exceeds 40 euros, then a 15% discount is displayed in the shopping cart. And the total cost of the order is reduced by 15%. </p>
+                    </div>
+                    <div class="chdiv">
+                        <img src="/img/ristorante/pic03.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                
+            </div>
+           
+        </div>
+    </div>
+
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div>
+                <a href="/ristorante/" target="_blank">
+                    <div class="goToWebsite">
+                        <p class="linkSite">Go to website</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+ 
+
+
+     <!-- Footer Start -->
+     <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center mb-4">
+                <a class="btn btn-light btn-social mr-2" href="https://www.facebook.com/ahniiastrohova/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/ahniia-strohova/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div> 
+            <div class="copywtiting">
+            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Ahniia Strohova</a>. All Rights Reserved. 
+            </p>
+            </div>
+    </div>
+    <!-- Footer End -->
+
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="/js/main.js"></script>
+
+</body>
+
+</html>

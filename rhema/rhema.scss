@@ -1,0 +1,110 @@
+@import url('/css/style.css');
+
+.title {
+    font-size: 6rem;
+    color: #309AD0;
+    font-weight: 500;
+}
+
+h1 {
+    color: #309AD0;
+}
+
+.description {
+    width: 90%;
+}
+
+.oldDesign {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4%;
+
+    .oldHomeRhema {
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .picHomeRhema {
+        width: 100%;
+        object-fit: cover;
+        object-position: center top;
+        height: 30rem;
+
+    }
+}
+
+
+@media (max-width: 992px) {
+    .oldDesign {
+        grid-template-columns: 1fr;
+    }
+}
+
+.slidOldDesign {
+    margin-top: 6%;
+
+    .pict {
+        object-fit: cover;
+        object-position: center top;
+    }
+}
+
+.links {
+    font-size: 3rem;
+    color: #309AD0;
+    font-weight: 500;
+}
+
+
+.mainTitle {
+    display: grid;
+    margin-top: 4%;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+
+    .pict {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+
+#grid3fr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6%;
+    margin-bottom: 8%;
+
+    .secGrid {
+        display: flexbox;
+    }
+
+    img {
+        object-fit: cover;
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    #grid3fr {
+        grid-template-columns: 1fr;
+    }
+}
+
+#gridWork {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1%;
+    margin-bottom: 8%;
+
+    .secGrid {
+        display: flexbox;
+    }
+
+    img {
+        object-fit: cover;
+        width: 100%;
+    }
+}
